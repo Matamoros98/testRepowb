@@ -1,51 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Portafolio Dinamico -   Christian Matamoros</title>
-</head>
-<body>
-    <!--div contenedor principal-->
-    <div class="contenedor">
-        <header>
-            <div class="logo">
-                <h1>Developer Name </h1>
-                <p>Desarollador de Software</p>
-            </div>
-            <form action="">
-                <input type="text" class="bar-busqueda" id="bar-busqueda" placeholder="Buscar">
-            </form>
-            <div class="categorias">
-                <a href="#" class="activo">Todos</a>
-                <a href="#">Paginas web</a>
-                <a href="#">Software</a>
-                <a href="#">Apps</a>
-                <!--<a href="#"></a>-->
-            </div>
-        </header>
-        <section class="grid" id="grid">
-            <div class="item">
-                <div class="item-content">
-                    <img src="img/ciudad.jpg" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-content">
-                    <img src="img/ciudad.jpg" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-content">
-                    <img src="img/ciudad.jpg" alt="">
-                </div>
-            </div>
-        </section>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
-    <script src="main.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="estilos.css" />
+		<title>Portafolio Dinamico - Christian Matamoros</title>
+	</head>
+	<body>
+		<!--div contenedor principal-->
+		<div class="contenedor">
+			<header>
+				<div class="logo">
+					<h1>Developer Name</h1>
+					<p>Desarollador de Software</p>
+				</div>
+				<form action="">
+					<input
+						type="text"
+						class="bar-busqueda"
+						id="bar-busqueda"
+						placeholder="Buscar"
+					/>
+				</form>
+				<div class="categorias">
+					<a href="#" class="activo">Todos</a>
+					<a href="#">Paginas web</a>
+					<a href="#">Software</a>
+					<a href="#">Apps</a>
+					<!--<a href="#"></a>-->
+				</div>
+			</header>
+			<section class="grid" id="grid">
+				<div
+					class="item"
+					data-categoria="web"
+					data-etiquetas="diseño web"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="c#"
+					data-etiquetas="c# .net"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="android"
+					data-etiquetas="desarrollo diseño aplicaciones moviles android"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="php"
+					data-etiquetas="lenguaje programcion php sistemas"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="vb"
+					data-etiquetas="visual basic vb .net programcion"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="python"
+					data-etiquetas="programcion python"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="angular"
+					data-etiquetas="diseño web angular"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="nodejs"
+					data-etiquetas="desarrollo web node js javascript"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+				<div
+					class="item"
+					data-categoria="sql"
+					data-etiquetas="sql server base de datos"
+					data-descripcion="Lorem ipsum dolor sit"
+				>
+					<div class="item-content">
+						<img src="img/web02.jpg" alt="" />
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+		<script src="main.js"></script>
+	</body>
 </html>

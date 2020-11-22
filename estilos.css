@@ -7,7 +7,7 @@
 
 body
 {
-    background: cornflowerblue;
+    background:#181818;
     font-family: 'Source Sans Pro', sans-serif;
 }
 a 
@@ -48,7 +48,7 @@ header form
 }
 header .bar-busqueda 
 {
-    width: 70%;
+    width: 80%;
     height: 40px;
     line-height: 40px;
     background: #ffffff;
@@ -98,7 +98,7 @@ opacity: 1;
     display: block;
     padding: 0px;
     margin: 10px;
-    width: calc(33.333% - 20px);
+    width: calc(33.333333% - 22px);
 }
 .grid .item-content
 {
